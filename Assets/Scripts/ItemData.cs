@@ -9,8 +9,10 @@ public class ItemData : ScriptableObject
     [Multiline]
     [SerializeField] private string _itemDescription = "";
     [SerializeField] private string _itemCost = "***";
+    [SerializeField] private string _playerMoney = "***";
 
     public string ItemName => _itemName;
     public string ItemDescription => _itemDescription;
     public string ItemCost => _itemCost;
+    public string PlayerMoney => _playerMoney;
 }
